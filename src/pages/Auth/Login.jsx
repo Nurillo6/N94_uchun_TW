@@ -1,8 +1,11 @@
 import React from 'react'
+import { Heading } from '../../components'
 
 const Login = () => {
   return (
-    <div>Login</div>
+    <>
+      <Heading type={"h1"} title={"Log in to Twitter"}/>
+    </>
   )
 }
 
